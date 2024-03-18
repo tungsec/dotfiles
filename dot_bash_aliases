@@ -1,0 +1,18 @@
+# Install, update & upgrade
+alias install='sudo apt-get install $1'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+alias remove='sudo apt-get remove $1'
+alias autoremove='sudo apt-get autoremove'
+
+alias ..='cd ..'  
+alias ....='cd ../..'  
+
+# Confirmation
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+alias rm='rm -I --preserve-root'
+
+# Utilities
+alias ports='sudo ss -tulanp'
